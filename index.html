@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="https://drive.google.com/file/d/0B4D2YTK1Sk-seHBzcDdiWUIyNXc/edit?usp=sharing" href="favicon.ico">
+        <link target="_blank" href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" target="_blank" href="https://drive.google.com/file/d/0B4D2YTK1Sk-sbkVjaXQxWWx6OGc/edit?usp=sharing" type="text/css">
+        <link rel="stylesheet" target="_blank" href="https://drive.google.com/file/d/0B4D2YTK1Sk-sbnAzWlQtQkN1Z2c/edit?usp=sharing" type="text/css">
+
+        <script src="https://drive.google.com/file/d/0B4D2YTK1Sk-senhuNGZjQVJGQzQ/edit?usp=sharing"></script>
+        <script src="https://drive.google.com/file/d/0B4D2YTK1Sk-sSVN2OUs5Y2trNTg/edit?usp=sharing"></script>
+        <script src="https://drive.google.com/file/d/0B4D2YTK1Sk-sUkRsOFhrN2pnekE/edit?usp=sharing"></script>
+        
+        <script>
+            var myVar=setInterval(function(){imageGallery()},5000);
+            var selectedimage = 1;
+            function imageGallery() 
+            {   
+                if(selectedimage == 0) 
+                {
+                document.getElementById('gallery').src = "https://drive.google.com/file/d/0B4D2YTK1Sk-sQzZMd2ZfM09BZmc/edit?usp=sharing";
+                }
+                else if(selectedimage == 1) 
+                {
+                document.getElementById('gallery').src = "https://drive.google.com/file/d/0B4D2YTK1Sk-sSHFuYjAyMG1SbFE/edit?usp=sharing";
+                }
+                else if(selectedimage == 2) 
+                {
+                document.getElementById('gallery').src = "https://drive.google.com/file/d/0B4D2YTK1Sk-sWGp4UWhYZklRS3c/edit?usp=sharing";
+                }
+                selectedimage++;
+                if (selectedimage >= 3) {selectedimage=0};
+            } 
+
+            function setamounts() {
+                var goal = 2000; //Set your Goal Here
+                var currentAmount = 200;//<?php $num = 200; echo $num; ?>; //This is the php code for retreaving the balance of your PayPal Account
+                alert(currentAmount);
+                document.getElementById('moneylefttillgoal').innerHTML = "$5";
+
+            }           
+        </script>
+
+    </head>
+    <body onload='setamounts();'>
+        
+        <header>
+            <a name="top"><h1>Bonnie Brae Junior Committee</h1></a>
+            <h2>"Helping those who can't help themselves"</h2>
+            <div class="buttonlink" onclick="window.location='#donate'">Donate</div>
+        </header>
+
+
+
+<section>
+
+                <div class="wrapper">
+
+                    <h3>Meet the Boys</h3>
+
+                    <p class="center">We took a day trip to Bonnie Brae to meet the boys and ask them about their summer vacation. </p>
+                    <div class="video">
+                        <div class="contentwrapper">
+                             <iframe width="1280" height="720" src="https://www.youtube.com/embed/D67jM8nO7Ag?rel=0&autoplay=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+ </section>
+
+
+
+ <section class="gray fullwidth">
+
+                <div class="wrapper">
+
+                    <h3>Lorem Large Copy Block Ipsum</h3>
+
+                    <p class="center">Donec felis nisl, bibendum non elementum ut, eleifend eu lacus. Praesent vel urna viverra, vulputate felis ac, venenatis augue.  Suspendisse placerat dui quam, sed viverra augue fermentum at. Nulla sed ultricies augue. Etiam eget mollis nibh. Vestibulum bibendum sagittis lobortis. Praesent vel consectetur magna. Curabitur id bibendum purus, nec accumsan odio. Morbi quis iaculis arcu, a luctus purus. Suspendisse placerat dui quam, sed viverra augue fermentum at. Nulla sed ultricies augue. Suspendisse placerat dui quam, sed viverra augue fermentum at. Nulla sed ultricies vel consectetur magna augue.</p>
+
+                    <p class="center">In quis risus Nulla sed ultricies augue. Etiam eget mollis nibh. Vestibulum bibendum sagittis lobortis. nec quam consequat mollis. Aenean at auctor ante. Vestibulum sagittis porta sapien, nec malesuada lectus. Ut vitae ante et enim vehicula accumsan.</p>
+
+                </div>
+
+ </section>
+
+<section>
+
+                <div class="wrapper">
+
+                    <h3>Photo Gallery</h3>
+
+                     <p class="center">Here are a selection of photos of the boys on their trip. </p>
+
+                        <div class="tabshow" style="padding: 50px 0;">
+                            <div class="contentwrapper">
+                                <div class="tab-box active">
+                                    <img src="img/imgplaceholder.jpg" id="gallery">
+                                </div>
+                            </div>
+                        </div>
+
+
+                   
+                </div>                
+    
+</section>
+
+
+<section class="gray fullwidth">
+
+                <div class="wrapper">
+
+                    <h3><a name="donate" style="color:#58595b">Donate</a></h3>
+
+                    <p class="center">Donec felis nisl, bibendum non elxementum ut, eleifend eu lacus. Praesent vel urna viverra, vulputate felis ac, venenatis augue. </p>
+
+                    <ul class="biglist">
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">$5</div></a><span> Purchase 1</span></li>
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">$10</div></a><span> Purchase 2</span></li>
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">$20</div></a><span> Purchase 3</span></li>
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">$50</div></a><span> Purchase 4</span></li>
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">$100</div></a><span> Purchase 5</span></li>
+                        <li><a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">Custom Amount</div></a><span> Give a donation of your own amount</span></li>
+                    </ul>
+
+                    <div id="thermo2" class="thermometer horizontal">
+
+                        <div class="track">
+                            <div class="goal">
+                                <div class="amount"> 1000000 </div>
+                             </div>
+                            <div class="progress">
+                                <div class="amount">367680 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    We are only <div id='moneylefttillgoal'></div> 
+
+    </section>
+
+
+ <footer>
+
+            <div class="linkholder">
+                <div class="link">
+                    <p>Visit the <br>Bonnie Brae website.</p>
+                    <a href="http://www.bonnie-brae.org/" target="_blank"><div class="buttonlink blue">GO</div></a>
+                </div>
+                <div class="link">
+                    <p>Want to return <br>to the top?</p>
+                    <a href="#top"><div class="buttonlink blue">Retern to Top</div></a>
+                </div>
+                <div class="link">
+                    <p>Questions?<br>Contact Us.</p>
+                    <a href="mailto:#bonniebjuniorcommittee@gmail.com" target="_blank"><div class="buttonlink blue">Email Us</div></a>
+                </div>
+            </div>
+
+            <h5>Thanks!</h5>
+
+ </footer>
+
+
+    </body>
+</html>
+
